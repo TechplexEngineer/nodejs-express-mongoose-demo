@@ -1,0 +1,14 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.12.0
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:mime:20170907':
+    - imager > mime:
+        patched: '2018-06-26T07:14:38.835Z'
+    - imager > pkgcloud > mime:
+        patched: '2018-06-26T07:14:38.835Z'
+    - imager > pkgcloud > request > mime:
+        patched: '2018-06-26T07:14:38.835Z'
+    - imager > pkgcloud > request > form-data > mime:
+        patched: '2018-06-26T07:14:38.835Z'
